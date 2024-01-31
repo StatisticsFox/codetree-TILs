@@ -6,8 +6,8 @@ for i in n_list:
     for j in n_list:
         ans.append((i, j))
 
-
+ans
 for i in range(n):
     for j in range(n):
-        print(ans[i * n + j], end=" ")
+        print(f'({ans[i*n+j][0]},{ans[i*n+j][1]})', end=" ")
     print()
