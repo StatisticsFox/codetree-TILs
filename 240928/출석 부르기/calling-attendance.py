@@ -2,10 +2,10 @@ n = int(input())
 stu = ['John', 'Tom', 'Paul']
 
 if n == 1:
-    print(stu[0])
+    print('John')
 elif n == 2:
-    print(stu[1])
+    print('Tom')
 elif n == 3:
-    print(stu(2))
+    print( 
 else:
     print("Vacancy")
